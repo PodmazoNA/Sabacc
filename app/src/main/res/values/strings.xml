@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sabacc</string>
+    <string-array name="bot_names">
+        <item>Х`сиши</item>
+        <item>Ба`киф</item>
+        <item>Ар`алани</item>
+        <item>Джа`фоск</item>
+        <item>Джак`зин</item>
+        <item>Шедао Шаи</item>
+        <item>Межань Кваад</item>
+        <item>Ном Анор</item>
+        <item>Нут Ганрей</item>
+        <item>Тей Хау</item>
+    </string-array>
+</resources>

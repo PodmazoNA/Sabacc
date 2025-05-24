@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_weight="0.3"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/botBound"
+            android:src="#00FF4B"
+            android:visibility="gone"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:id="@+id/botAvatar"
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+    </FrameLayout>
+    <TextView
+        android:id="@+id/botName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="4dp"/>
+    <LinearLayout
+        android:id="@+id/botCardsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:id="@+id/botSum"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "985426186789",
+    "project_id": "sabacc-3d551",
+    "storage_bucket": "sabacc-3d551.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985426186789:android:2c288174702b73066c25cc",
+        "android_client_info": {
+          "package_name": "com.example.sabacc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJKyMYaAUAvRfeLzkteLLodrTZGlvNyKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

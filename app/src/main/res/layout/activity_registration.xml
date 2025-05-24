@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    android:background="@drawable/blue2"
+    tools:context=".RegistrationActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Введите имя..."
+        android:paddingVertical="10dp"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/etEmail"
+        android:background="@color/white"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Введите email..."
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:background="@color/white"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Введите пароль..."
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/registrationBtn"
+        style="@style/ActionButton"
+        android:text="Зарегистрироваться"/>
+
+</LinearLayout>

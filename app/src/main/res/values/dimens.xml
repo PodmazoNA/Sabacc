@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_width">80dp</dimen>
+    <dimen name="card_height">120dp</dimen>
+    <dimen name="bot_card_width">30dp</dimen>
+    <dimen name="bot_card_height">45dp</dimen>
+</resources>
