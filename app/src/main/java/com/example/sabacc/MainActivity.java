@@ -117,6 +117,8 @@ public class MainActivity extends AppCompatActivity {
             ImageView cardView = createCardView(card, i);
             handContainer.addView(cardView);
         }
+        TextView sum = findViewById(R.id.userSum);
+        sum.setText("Ваша сумма: " + player.getSum());
     }
     private void updateOpenCardUI(){
         ImageView openCardView = findViewById(R.id.openCardView);
