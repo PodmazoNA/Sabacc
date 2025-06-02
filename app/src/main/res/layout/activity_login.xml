@@ -18,6 +18,7 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColorHint="#0E8C80"
         android:hint="  Введите email..."
         android:inputType="textEmailAddress"/>
     <EditText
@@ -28,6 +29,7 @@
         android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColorHint="#0E8C80"
         android:hint="  Введите пароль..."
         android:inputType="textPassword"/>
     <Button
